@@ -1,12 +1,20 @@
 
 function App() {
-  
+
 
   return (
-    <header>
-      <img src="" alt="" />
-      <h1>Tic-Toc-Toe</h1>
-    </header>
+    <main>
+      <div className="game-container">
+        <ol id="players">
+          <li>
+            <span className="player-name">Player 1</span>
+            <span className="player-symbol">X</span>
+          </li>
+          <li></li>
+          <li></li>
+        </ol>
+      </div>
+    </main>
   )
 }
 
